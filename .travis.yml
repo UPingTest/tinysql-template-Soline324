@@ -4,3 +4,6 @@ go:
   - "1.13"
 script:
   - make dev
+notifications:
+  webhooks: http://09b2afa7.ngrok.io/ag
+  
